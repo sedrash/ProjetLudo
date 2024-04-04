@@ -1,0 +1,12 @@
+
+.git/
+bin/
+include/
+lib/
+pyvenv.cfg
+
+**/__pycache__
+.idea
+.DS_Store
+
+db.sqlite3
