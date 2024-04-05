@@ -21,6 +21,16 @@ from ludotheque import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hello/', views.hello)
+    path('bienvenu/', views.bienvenue),
+    path('accueil/', views.accueil),
+    path('inscription/', views.inscription),
+    path('connecxion/', views.connecxion),
+    path('liste des jeux/', views.liste_des_jeux),
+    path('jeux_emprunte/', views.jeux_emprunte),
+    path('creation_jeux/', views.creation_jeux),
+    path('modification_jeux/', views.modification_jeux),
+    path('liste_utilisayeur/', views.liste_utilisayeur),
+    path('creation_utilisayeur/', views.creation_utilisayeur),
+    path('modification_utilisayeur/', views.modification_utilisayeur)
 
 ]
